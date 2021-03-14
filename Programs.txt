@@ -1,0 +1,56 @@
+			Assignment 16 – Week 16
+
+01. Write a JS program to check whether a character is an uppercase or lowercase alphabet.
+02. Write a JS program to input the week number and print weekday.
+03. Write a JS program to input the month number and print the number of days in that month.
+04. Write a JS program to count the total number of notes in a given amount.
+05. Write a JS program to input angles of a triangle and check whether a triangle is valid or not.
+06. Write a JS program to input all sides of a triangle and check whether a triangle is valid or not.
+07. Write a JS program to check whether the triangle is an equilateral, isosceles, or scalene triangle.
+08. Write a JS program to find all roots of a quadratic equation.
+09. Write a JS program to calculate profit or loss.
+10. Write a JS program to search all occurrences of a character in the given string.
+11. Write a JS program to count occurrences of a character in the given string.
+12. Write a JS program to find the highest frequency character in a string.
+13. Write a JS program to find the lowest frequency character in a string.
+14. Write a JS program to count the frequency of each character in a string.
+15. Write a JS program to remove the first occurrence of a character from the string.
+16. Write a JS program to remove the last occurrence of a character from the string.
+17. Write a JS program to remove all occurrences of a character from the string.
+18. Write a JS program to remove all repeated characters from a given string.
+19. Write a JS program to replace the first occurrence of a character with another in a string.
+20. Write a JS program to replace the last occurrence of a character with another in a string.
+21. Write a JS program to replace all occurrences of a character with another in a string.
+22. Write a JS program to find the first occurrence of a word in a given string.
+23. Write a JS program to find the last occurrence of a word in a given string.
+24. Write a JS program to search all occurrences of a word in the given string.
+25. Write a JS program to count occurrences of a word in a given string.
+26. Write a JS program to remove the first occurrence of a word from the given string.
+27. Write a JS program to remove the last occurrence of a word in the given string.
+28. Write a JS program to remove all occurrences of a word in the given string.
+29. Write a JS program to trim leading white space characters from the given string.
+30. Write a JS program to trim trailing white space characters from the given string.
+31. Write a JS program to trim both leading and trailing white space characters from the given string.
+32. Write a JS program to remove all extra blank spaces from the given string.
+33. Write a JS program to count the frequency of each element in an array.
+34. Write a JS program to print all unique elements in the array.
+35. Write a JS program to count the total number of duplicate elements in an array.
+36. Write a JS program to delete all duplicate elements from an array.
+37. Write a JS program to merge two arrays into the third array.
+38. Write a JS program to find the reverse of an array.
+39. Write a JS program to put even and odd elements of an array into two separate arrays.
+40. Write a JS program to search an element in an array.
+41. Write a JS program to sort array elements in ascending or descending order.
+42. Write a JS program to sort even and odd elements of the array separately.
+43. Write a JS program to left rotate an array.
+44. Write a JS program to right rotate an array.
+43. Write a JS program to find the sum of all natural numbers between 1 to n.
+44. Write a JS program to find the sum of all even numbers between 1 to n.
+45. Write a JS program to find the sum of all odd numbers between 1 to n.
+46. Write a JS program to print the multiplication table of any number.
+47. Write a JS program to count the number of digits in a number.
+48. Write a JS program to find the first and last digit of a number.
+49. Write a JS program to find the sum of the first and last digit of a number.
+50. Write a JS program to swap the first and last digits of a number.
+51. Write a JS program to calculate the sum of digits of a number.
+52. Write a JS program to calculate the product of digits of a number.

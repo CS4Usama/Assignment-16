@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>16469 Usama</title>
+</head>
+<body>
+        <h3>Program 01 – Check a Character is Lowercase or Uppercase</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="char1">Enter a Character:</label>
+                <input type="text" id="char1" maxlength="1" size="5" required>
+                <h4 id="ans1"></h4>
+                <button onclick="checkCase()">Answer</button>
+            </form>
+
+    </br>
+
+        <h3>Program 02 – Input Week Number and Print Week Day</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="num1">Enter Week's Day Number:</label>
+                <input type="number" id="num1" min="1" max="7" required>
+                <h4 id="ans2"></h4>
+                <button onclick="printWeekDay()">Answer</button>
+            </form>
+
+    </br>
+
+        <h3>Program 03 – Input Month Number and Print Number of Days in that Month</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="num2">Enter Month Number:</label>
+                <input type="number" id="num2" min="1" max="12" required>
+                <h4 id="ans3"></h4>
+                <button onclick="printMonthDay()">Answer</button>
+            </form>
+
+    </br>
+
+        <h3>Program 04 – Count Number of Notes in Given Amount</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="num3">Enter Amount:</label>
+                <input type="number" id="num3" required>
+                <h4 id="ans4"></h4>
+                <button onclick="numberOfNotes()">Answer</button>
+            </form>
+    </br>
+
+        <h3>Program 05 – Input Angles and Check Triangle is valid or not</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="angle1">Enter 1st Angle of a Triangle:&nbsp</label>     <!-- &nbsp is a 'Non-Breakable Space' Escape Character -->
+                <input type="number" id="angle1" required> <br>
+                <label for="angle2">Enter 2nd Angle of a Triangle:</label>
+                <input type="number" id="angle2" required> <br>
+                <label for="angle3">Enter 3rd Angle of a Triangle:&nbsp</label>
+                <input type="number" id="angle3" required>
+                <h4 id="ans5"></h4>
+                <button onclick="trianlgeValidity()">Answer</button>
+            </form>
+    </br>
+
+        <h3>Program 06 – Input Sides and Check Triangle is valid or not</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="side1">Enter 1st Side of a Triangle:&nbsp</label>
+                <input type="number" id="side1" required> <br>
+                <label for="side2">Enter 2nd Side of a Triangle:</label>
+                <input type="number" id="side2" required> <br>
+                <label for="side3">Enter 3rd Side of a Triangle:&nbsp</label>
+                <input type="number" id="side3" required>
+                <h4 id="ans6"></h4>
+                <button onclick="trianlgeValidity2()">Answer</button>
+            </form>
+
+    </br>
+
+        <h3>Program 07 – Check Triangle is Equilateral, Isosceles or Scalene</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="side4">Enter 1st Side of a Triangle:&nbsp</label>
+                <input type="number" id="side4" required> <br>
+                <label for="side5">Enter 2nd Side of a Triangle:</label>
+                <input type="number" id="side5" required> <br>
+                <label for="side6">Enter 3rd Side of a Triangle:&nbsp</label>
+                <input type="number" id="side6" required>
+                <h4 id="ans7"></h4>
+                <button onclick="checkTriangleType()">Answer</button>
+            </form>
+
+    </br>
+
+        <h3>Program 08 – Find All Roots of a Quadratic Equation</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="a">Enter Value a:</label>
+                <input type="number" id="a" required> <br>
+                <label for="b">Enter Value b:</label>
+                <input type="number" id="b" required> <br>
+                <label for="c">Enter Value c:</label>
+                <input type="number" id="c" required>
+                <h4 id="ans8"></h4>
+                <button onclick="quadraticRoots()">Answer</button>
+            </form>
+
+    </br>
+
+        <h3>Program 09 – Calculate Profit or Loss</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="costPrice">Enter Cost Price:</label>
+                <input type="number" id="costPrice" required> <br>
+                <label for="sellPrice">Enter Selling Price:</label>
+                <input type="number" id="sellPrice" required>
+                <h4 id="ans9"></h4>
+                <button onclick="profitOrLoss()">Answer</button>
+            </form>
+
+    </br>
+
+        <h3>Program 10 – Search All Occurrence of a Character in given String (Case Sensitive)</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="str">Enter a String:</label>
+                <input type="text" id="str" size="40" required> <br>
+                <label for="char2">Enter Character whose Occurrence is to find:</label>
+                <input type="text" id="char2" size="1" maxlength="1" required>
+                <h4 id="ans10"></h4>
+                <button onclick="charOccurrence()">Answer</button>
+            </form>
+
+    </br>
+
+        <h3>Program 11 – Count Occurrence of a Character in given String (Case Sensitive)</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="str2">Enter a String:</label>
+                <input type="text" id="str2" size="40" required> <br>
+                <label for="char3">Enter Character whose Occurrence is to find:</label>
+                <input type="text" id="char3" size="1" maxlength="1" required>
+                <h4 id="ans11"></h4>
+                <button onclick="countOccurrence()">Answer</button>
+            </form>
+
+    </br>
+    
+        <h3>Program 12 – Find Highest Frequency Character in given String (Case Sensitive)</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="str3">Enter a String:</label>
+                <input type="text" id="str3" size="40" required>
+                <h4 id="ans12"></h4>
+                <button onclick="highFrequencyChar()">Answer</button>
+            </form>
+
+    </br>
+
+        <h3>Program 13 – Find Lowest Frequency Character in given String (Case Sensitive)</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="str4">Enter a String:</label>
+                <input type="text" id="str4" size="40" required>
+                <h4 id="ans13"></h4>
+                <button onclick="lowFrequencyChar()">Answer</button>
+            </form>
+
+    </br>
+
+        <h3>Program 14 – Find Occurrence of Each Character in given String (Case Sensitive)</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="str5">Enter a String:</label>
+                <input type="text" id="str5" size="40" required>
+                <h4 id="ans14"></h4>
+                <button onclick="eachCharOccurrence()">Answer</button>
+            </form>
+
+    </br>
+
+        <h3>Program 15 – Remove First Occurrence of a Character from given String (Case Sensitive)</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="str6">Enter a String:</label>
+                <input type="text" id="str6" size="40" required> <br>
+                <label for="char4">Enter Character whose First Occurrence is to Remove:</label>
+                <input type="text" id="char4" size="1" maxlength="1" required>
+                <h4 id="ans15"></h4>
+                <button onclick="remove1stOccurrence()">Answer</button>
+            </form>
+
+    </br>
+
+        <h3>Program 16 – Remove Last Occurrence of a Character from given String (Case Sensitive)</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="str7">Enter a String:</label>
+                <input type="text" id="str7" size="40" required> <br>
+                <label for="char5">Enter Character whose Last Occurrence is to Remove:</label>
+                <input type="text" id="char5" size="1" maxlength="1" required>
+                <h4 id="ans16"></h4>
+                <button onclick="removeLastOccurrence()">Answer</button>
+            </form>
+
+    </br>
+
+        <h3>Program 17 – Remove All Occurrence of a Character from given String (Case Sensitive)</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="str8">Enter a String:</label>
+                <input type="text" id="str8" size="40" required> <br>
+                <label for="char6">Enter Character whose All Occurrences are to Remove:</label>
+                <input type="text" id="char6" size="1" maxlength="1" required>
+                <h4 id="ans17"></h4>
+                <button onclick="removeAllOccurrence()">Answer</button>
+            </form>
+
+    </br>
+
+        <h3>Program 18 – Remove All Repeated Characters from given String (Case Sensitive)</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="str9">Enter a String:</label>
+                <input type="text" id="str9" size="40" required>
+                <h4 id="ans18"></h4>
+                <button onclick="removeRepeatedChar()">Answer</button>
+            </form>
+
+    </br>
+
+        <h3>Program 19 – Replace First Occurrence of Character with another in String (Case Sensitive)</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="str10">Enter a String:</label>
+                <input type="text" id="str10" size="40" required> <br>
+                <label for="char7">Enter Character whose First Occurrence is to Replace:</label>
+                <input type="text" id="char7" size="1" maxlength="1" required> <br>
+                <label for="char8">Enter new Replaced Character:</label>
+                <input type="text" id="char8" size="1" maxlength="1" required>
+                <h4 id="ans19"></h4>
+                <button onclick="replace1stOccurrence()">Answer</button>
+            </form>
+
+    </br>
+
+        <h3>Program 20 – Replace Last Occurrence of Character with another in String (Case Sensitive)</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="str11">Enter a String:</label>
+                <input type="text" id="str11" size="40" required> <br>
+                <label for="char9">Enter Character whose Last Occurrence is to Replace:</label>
+                <input type="text" id="char9" size="1" maxlength="1" required> <br>
+                <label for="char10">Enter new Replaced Character:</label>
+                <input type="text" id="char10" size="1" maxlength="1" required>
+                <h4 id="ans20"></h4>
+                <button onclick="replaceLastOccurrence()">Answer</button>
+            </form>
+
+    </br>
+
+        <h3>Program 21 – Replace All Occurrences of Character with another in String (Case Sensitive)</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="str12">Enter a String:</label>
+                <input type="text" id="str12" size="40" required> <br>
+                <label for="char11">Enter Character whose Last Occurrence is to Replace:</label>
+                <input type="text" id="char11" size="1" maxlength="1" required> <br>
+                <label for="char12">Enter new Replaced Character:</label>
+                <input type="text" id="char12" size="1" maxlength="1" required>
+                <h4 id="ans21"></h4>
+                <button onclick="replaceAllOccurrence()">Answer</button>
+            </form>
+
+    </br>
+
+        <h3>Program 22 – Find First Occurrence of a Word in String (Case Sensitive)</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="str13">Enter a String:</label>
+                <input type="text" id="str13" size="40" required> <br>
+                <label for="word1">Enter Word whose First Occurrence is to Find:</label>
+                <input type="text" id="word1" size="11" maxlength="15" required>
+                <h4 id="ans22"></h4>
+                <button onclick="word1stOccurrence()">Answer</button>
+            </form>
+
+    </br>
+    
+        <h3>Program 23 – Find Last Occurrence of a Word in String (Case Sensitive)</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="str14">Enter a String:</label>
+                <input type="text" id="str14" size="40" required> <br>
+                <label for="word2">Enter Word whose Last Occurrence is to Find:</label>
+                <input type="text" id="word2" size="11" maxlength="15" required>
+                <h4 id="ans23"></h4>
+                <button onclick="wordLastOccurrence()">Answer</button>
+            </form>
+
+    </br>
+
+        <h3>Program 24 – Search All Occurrences of a Word in String (Case Sensitive)</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="str15">Enter a String:</label>
+                <input type="text" id="str15" size="40" required> <br>
+                <label for="word3">Enter Word whose Occurrences are to Find:</label>
+                <input type="text" id="word3" size="13" maxlength="15" required>
+                <h4 id="ans24"></h4>
+                <button onclick="wordAllOccurrences()">Answer</button>
+            </form>
+
+    </br>
+
+        <h3>Program 25 – Count Occurrences of a Word in String (Case Sensitive)</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="str16">Enter a String:</label>
+                <input type="text" id="str16" size="40" required> <br>
+                <label for="word4">Enter Word whose Occurrences are to Count:</label>
+                <input type="text" id="word4" size="12" maxlength="15" required>
+                <h4 id="ans25"></h4>
+                <button onclick="countWordOccurrences()">Answer</button>
+            </form>
+
+    </br>
+
+        <h3>Program 26 – Remove First Occurrence of a Word in String (Case Sensitive)</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="str17">Enter a String:</label>
+                <input type="text" id="str17" size="40" required> <br>
+                <label for="word5">Enter Word whose First Occurrence is to Remove:</label>
+                <input type="text" id="word5" size="10" maxlength="15" required>
+                <h4 id="ans26"></h4>
+                <button onclick="removeWord_1stOccurrence()">Answer</button>
+            </form>
+
+    </br>
+
+        <h3>Program 27 – Remove Last Occurrence of a Word in String (Case Sensitive)</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="str18">Enter a String:</label>
+                <input type="text" id="str18" size="40" required> <br>
+                <label for="word6">Enter Word whose Last Occurrence is to Remove:</label>
+                <input type="text" id="word6" size="10" maxlength="15" required>
+                <h4 id="ans27"></h4>
+                <button onclick="removeWord_LastOccurrence()">Answer</button>
+            </form>
+
+    </br>
+
+        <h3>Program 28 – Remove All Occurrences of a Word in String (Case Sensitive)</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="str19">Enter a String:</label>
+                <input type="text" id="str19" size="40" required> <br>
+                <label for="word7">Enter Word whose All Occurrences are to Remove:</label>
+                <input type="text" id="word7" size="10" maxlength="15" required>
+                <h4 id="ans28"></h4>
+                <button onclick="removeAll_wordOccurrences()">Answer</button>
+            </form>
+
+    </br>
+
+        <h3>Program 29 – Trim Leading White Space Characters from String</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="str20">Enter a String:</label>
+                <input type="text" id="str20" size="40" required>
+                <h4 id="ans29"></h4>
+                <button onclick="trimLeading_whiteSpace()">Answer</button>
+            </form>
+
+    </br>
+
+        <h3>Program 30 – Trim Trailing White Space Characters from String</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="str21">Enter a String:</label>
+                <input type="text" id="str21" size="40" required>
+                <h4 id="ans30"></h4>
+                <button onclick="trimTrailing_whiteSpace()">Answer</button>
+            </form>
+
+    </br>
+
+        <h3>Program 31 – Trim Both Leading and Trailing White Space Characters from String</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="str22">Enter a String:</label>
+                <input type="text" id="str22" size="40" required>
+                <h4 id="ans31"></h4>
+                <button onclick="trim_whiteSpaces()">Answer</button>
+            </form>
+
+    </br>
+
+        <h3>Program 32 – Remove All Extra Blank Spaces from String</h3>
+            <form onsubmit="event.preventDefault()">
+                <label for="str23">Enter a String:</label>
+                <input type="text" id="str23" size="40" required>
+                <h4 id="ans32"></h4>
+                <button onclick="removeExtra_blankSpaces()">Answer</button>
+            </form>
+
+    </br>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
