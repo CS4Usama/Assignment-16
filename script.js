@@ -579,5 +579,14 @@ const trim_whiteSpaces = () => {
 
 const removeExtra_blankSpaces = () => {
     var str23 = document.getElementById("str23").value;
-    
+    let ans32 = str23.replace(/\s+/g, ' ');
+    // let ans32 = str23.replace(/\s+/g, ' ').trim();
+    // let ans32 = str23.replace(/\s{2,}/g, ' ').trim();    {2,} shows 2 or 2+ spaces
+    document.getElementById("ans32").innerHTML = `${ans32}`
+    console.log(ans32);
 }
+
+
+
+/* Program 33 */
+
