@@ -590,3 +590,23 @@ const removeExtra_blankSpaces = () => {
 
 /* Program 33 */
 
+const countFreqOfArray = () => {
+    let arr = ['Usama', 'Pakistan', 'Usama', 5, 'Usama', 'Pakistan'];
+    let obj = {};
+    arr.forEach((elem) => {
+        let count = 0;
+        arr.forEach((elem2) => {
+            if(elem == elem2) {
+                count++;
+            }
+        });
+        obj[elem] = count;
+    });
+    let ans33 = JSON.stringify(obj);    //Object can't be displayed at document screen. So, we have to convert it into a string.
+    document.getElementById('ans33').innerHTML = `${ans33}`;
+}
+
+
+
+/* Program 34 */
+
