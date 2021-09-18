@@ -632,5 +632,25 @@ const uniqueElementsOfArray = () => {
 
 
 
-/* Program 34 */
+/* Program 35 */
+
+const countDuplicateElementsInArray = () => {
+    let arr = ['Usama', 'Pakistan', 'Usama', 5, 'Usama', 'Pakistan'];
+    let obj = {};
+    dupElem = 0;
+    arr.forEach(function(x) {
+        obj[x] = (obj[x] || 0) + 1;
+    });
+
+    for (var key in obj) {
+        if(obj.hasOwnProperty(key)) {
+            obj[key] > 1 ? dupElem++ : dupElem;
+        }
+    }
+    return document.getElementById('ans35').innerHTML = `Total Number of Duplicate Elements in the Array: &nbsp ${dupElem}`;
+}
+
+
+
+/* Program 36 */
 
