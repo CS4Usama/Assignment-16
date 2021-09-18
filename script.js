@@ -701,7 +701,7 @@ const reverseArray = () => {
     let arr = ['BSCS', 5, 'Semester', false];
     let revArr = [];
 
-    // revArr = arr.reverse();
+    revArr = arr.reverse();
     
     // for (let i = arr.length-1; i>=0; i--) {
     //     revArr.push(arr[i]);
@@ -712,5 +712,5 @@ const reverseArray = () => {
     //     revArr.unshift(elem);
     // });
 
-    document.getElementById('ans38').innerHTML = `: &nbsp ${revArr}`;
+    document.getElementById('ans38').innerHTML = `Reverse of the above Array: &nbsp ${revArr}`;
 }
