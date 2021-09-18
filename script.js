@@ -699,6 +699,11 @@ const mergeTwoArrays = () => {
 
 const reverseArray = () => {
     let arr = ['BSCS', 5, 'Semester', false];
+    // console.log(arr.reverse());
+    
+    for (let i = arr.length; i > 0; i--) {
+        console.log(i);
+    }
 
     document.getElementById('ans38').innerHTML = `After Merging Two Arrays into Third Array: &nbsp ${mergedArr}`;
 }
