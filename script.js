@@ -699,11 +699,14 @@ const mergeTwoArrays = () => {
 
 const reverseArray = () => {
     let arr = ['BSCS', 5, 'Semester', false];
-    // console.log(arr.reverse());
-    
-    for (let i = arr.length; i > 0; i--) {
-        console.log(i);
-    }
+    let revArr = [];
 
-    document.getElementById('ans38').innerHTML = `After Merging Two Arrays into Third Array: &nbsp ${mergedArr}`;
+    // revArr = arr.reverse();
+    
+    // for (let i = arr.length - 1; i >= 0; i--) {
+    //     console.log(arr[i]);
+    //     let revArr = arr.push()
+    // }
+
+    document.getElementById('ans38').innerHTML = `: &nbsp ${revArr}`;
 }
