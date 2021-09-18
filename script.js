@@ -610,3 +610,27 @@ const countFreqOfArray = () => {
 
 /* Program 34 */
 
+const uniqueElementsOfArray = () => {
+    let arr = ['Usama', 'Pakistan', 'Usama', 5, 'Usama', 'Pakistan'];
+    let newArr = [];
+    arr.forEach((elem) => {
+        let count = 0;
+        arr.forEach((elem2) => {
+            if(elem == elem2) {
+                count++;
+            }
+        });
+        if(count == 1) {
+            newArr.push(elem)
+        }
+    });
+    document.getElementById('ans34').innerHTML = `Unique Elements in the Array: &nbsp ${newArr}`;
+
+    // let ans34 = [...new Set(arr)]
+    // document.getElementById('ans34').innerHTML = `Unique Elements in the Array: &nbsp ${ans34}`;
+}
+
+
+
+/* Program 34 */
+
