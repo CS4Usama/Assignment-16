@@ -685,3 +685,15 @@ const delDupElemFromArray = () => {
 
 /* Program 37 */
 
+const mergeTwoArrays = () => {
+    let arr1 = ['Usama', 'Pakistan', 21];
+    let arr2 = ['BSCS', 5, 'Semester', false];
+    // let mergedArr = arr1.concat(arr2);
+    let mergedArr = [...arr1, ...arr2];
+    document.getElementById('ans37').innerHTML = `After Merging Two Arrays into Third Array: &nbsp ${mergedArr}`;
+}
+
+
+
+/* Program 38 */
+
