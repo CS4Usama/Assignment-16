@@ -714,3 +714,8 @@ const reverseArray = () => {
 
     document.getElementById('ans38').innerHTML = `Reverse of the above Array: &nbsp ${revArr}`;
 }
+
+
+
+/* Program 39 */
+
