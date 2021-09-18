@@ -44,13 +44,13 @@
 42. Write a JS program to sort even and odd elements of the array separately.
 43. Write a JS program to left rotate an array.
 44. Write a JS program to right rotate an array.
-43. Write a JS program to find the sum of all natural numbers between 1 to n.
-44. Write a JS program to find the sum of all even numbers between 1 to n.
-45. Write a JS program to find the sum of all odd numbers between 1 to n.
-46. Write a JS program to print the multiplication table of any number.
-47. Write a JS program to count the number of digits in a number.
-48. Write a JS program to find the first and last digit of a number.
-49. Write a JS program to find the sum of the first and last digit of a number.
-50. Write a JS program to swap the first and last digits of a number.
-51. Write a JS program to calculate the sum of digits of a number.
-52. Write a JS program to calculate the product of digits of a number.
+45. Write a JS program to find the sum of all natural numbers between 1 to n.
+46. Write a JS program to find the sum of all even numbers between 1 to n.
+47. Write a JS program to find the sum of all odd numbers between 1 to n.
+48. Write a JS program to print the multiplication table of any number.
+49. Write a JS program to count the number of digits in a number.
+50. Write a JS program to find the first and last digit of a number.
+51. Write a JS program to find the sum of the first and last digit of a number.
+52. Write a JS program to swap the first and last digits of a number.
+53. Write a JS program to calculate the sum of digits of a number.
+54. Write a JS program to calculate the product of digits of a number.

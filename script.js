@@ -719,3 +719,25 @@ const reverseArray = () => {
 
 /* Program 39 */
 
+const evenOddArray = () => {
+    let arr = [1, 2, 3, 4, 5, 6, 7];
+    let evenArr = [];
+    let oddArr = [];
+    arr.forEach((elem) => {
+        if(elem % 2 === 0) {
+            evenArr.push(elem);
+        } else {
+            oddArr.push(elem);
+        }
+    });
+    document.getElementById('ans39').innerHTML = `Even Element's Array: &nbsp [${evenArr}]`;
+    document.getElementById('ans39_2').innerHTML = `Odd Element's Array: &nbsp [${oddArr}]`;
+}
+
+
+
+/* Program 40 */
+
+const searchElementInArray = () => {
+    
+}
