@@ -582,8 +582,7 @@ const removeExtra_blankSpaces = () => {
     let ans32 = str23.replace(/\s+/g, ' ');
     // let ans32 = str23.replace(/\s+/g, ' ').trim();
     // let ans32 = str23.replace(/\s{2,}/g, ' ').trim();    {2,} shows 2 or 2+ spaces
-    document.getElementById("ans32").innerHTML = `${ans32}`
-    console.log(ans32);
+    document.getElementById("ans32").innerHTML = `${ans32}`;
 }
 
 
@@ -641,13 +640,19 @@ const countDuplicateElementsInArray = () => {
     arr.forEach(function(x) {
         obj[x] = (obj[x] || 0) + 1;
     });
-
+    
     for (var key in obj) {
         if(obj.hasOwnProperty(key)) {
             obj[key] > 1 ? dupElem++ : dupElem;
         }
     }
     return document.getElementById('ans35').innerHTML = `Total Number of Duplicate Elements in the Array: &nbsp ${dupElem}`;
+    
+    /* To find the Duplicate Values, We just need to Reverse the Condition # 2 of Program 36 */
+    // let dupElem = arr.filter((elem, index) => {
+    //     return arr.indexOf(elem) !== index;
+    // });
+    // console.log(dupElem);
 }
 
 
