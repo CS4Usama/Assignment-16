@@ -704,8 +704,8 @@ const reverseArray = () => {
     // revArr = arr.reverse();
     
     // for (let i = arr.length - 1; i >= 0; i--) {
+    //     revArr.push(arr[i]);
     //     console.log(arr[i]);
-    //     let revArr = arr.push()
     // }
 
     document.getElementById('ans38').innerHTML = `: &nbsp ${revArr}`;
