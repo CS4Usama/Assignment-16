@@ -703,10 +703,14 @@ const reverseArray = () => {
 
     // revArr = arr.reverse();
     
-    // for (let i = arr.length - 1; i >= 0; i--) {
+    // for (let i = arr.length-1; i>=0; i--) {
     //     revArr.push(arr[i]);
     //     console.log(arr[i]);
     // }
+
+    // arr.forEach((elem) => {
+    //     revArr.unshift(elem);
+    // });
 
     document.getElementById('ans38').innerHTML = `: &nbsp ${revArr}`;
 }
