@@ -626,7 +626,7 @@ const uniqueElementsOfArray = () => {
     });
     document.getElementById('ans34').innerHTML = `Unique Elements in the Array: &nbsp ${newArr}`;
 
-    // let ans34 = [...new Set(arr)]
+    // let ans34 = [...new Set(arr)];
     // document.getElementById('ans34').innerHTML = `Unique Elements in the Array: &nbsp ${ans34}`;
 }
 
@@ -653,4 +653,30 @@ const countDuplicateElementsInArray = () => {
 
 
 /* Program 36 */
+
+const delDupElemFromArray = () => {
+    let arr = ['Usama', 'Pakistan', 'Usama', 5, 'Usama', 'Pakistan'];
+
+    /* 1. using Set Method */
+    let ans36 = [...new Set(arr)];
+
+    /* 2. using indexOf() and filter() Method */
+    // let ans36 = arr.filter((elem, index) => {
+    //     return arr.indexOf(elem) === index;
+    // });
+
+    /* 3. using forEach() and include() Method */
+    // let ans36 = [];
+    // arr.forEach((elem) => {
+    //     if(!ans36.includes(elem)) {
+    //         ans36.push(elem);
+    //     }
+    // });
+
+    document.getElementById('ans36').innerHTML = `After Deleting Duplicate Elements from Array: &nbsp ${ans36}`;
+}
+
+
+
+/* Program 37 */
 
