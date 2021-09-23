@@ -739,6 +739,6 @@ const evenOddArray = () => {
 /* Program 40 */
 
 const searchElementInArray = () => {
-    let arr = ['BSCS', 5, 'Semester', false];
+    let arr = ['BSCS', 5, 'Semester', false, 'Pakistan'];
 
 }
