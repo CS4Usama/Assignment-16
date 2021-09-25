@@ -740,5 +740,6 @@ const evenOddArray = () => {
 
 const searchElementInArray = () => {
     let arr = ['BSCS', 5, 'Semester', false, 'Pakistan'];
-
+    let str24 = document.getElementById("str24").value;
+    
 }
