@@ -620,7 +620,7 @@ const uniqueElementsOfArray = () => {
             }
         });
         if(count == 1) {
-            newArr.push(elem)
+            newArr.push(elem);
         }
     });
     document.getElementById('ans34').innerHTML = `Unique Elements in the Array: &nbsp ${newArr}`;
