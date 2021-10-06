@@ -471,7 +471,7 @@ const wordAllOccurrences = () => {
     if(arr2.length === 0) {
         document.getElementById("ans24").innerHTML = `'${word3}' is not Found in Your String.`;
     } else {
-        document.getElementById("ans24").innerHTML = `'${word3}' found at these Positions: &nbsp ${arr2}`;
+        document.getElementById("ans24").innerHTML = `'${word3}' found at this Position: &nbsp ${arr2}`;
     }
 }
 
@@ -739,5 +739,23 @@ const evenOddArray = () => {
 /* Program 40 */
 
 const searchElementInArray = () => {
+    const arr = ['Usama', 1, 'Pakistan', 2, true, '3', 4];
+    const str = document.getElementById('str24').value;
     
+    // let elemIndex = -1;
+    // arr.forEach((elem, index) => {
+    //     // elem === str ? elemIndex=index : elemIndex=-1;
+    //     console.log(index, elem, str);
+    //     if(elem === str) {
+    //         console.log(index);
+    //         // elemIndex = index;
+    //         break
+    //     }
+    // });
+    
+    // if(index == -1) {
+    //     document.getElementById('ans40').innerHTML = "Element not Found in the Array";
+    // } else {
+    //     document.getElementById('ans40').innerHTML = `'${str}' found at position: &nbsp ${elemIndex+1}`;
+    // }
 }
