@@ -620,7 +620,7 @@ const uniqueElementsOfArray = () => {
             }
         });
         if(count == 1) {
-            newArr.push(elem)
+            newArr.push(elem);
         }
     });
     document.getElementById('ans34').innerHTML = `Unique Elements in the Array: &nbsp ${newArr}`;
@@ -739,9 +739,9 @@ const evenOddArray = () => {
 /* Program 40 */
 
 const searchElementInArray = () => {
-    const arr = ['Usama', 1, 'Pakistan', 2, true, '3', 4];
+    const arr = ['BSCS', 5, 'Semester', false, 'Pakistan'];
     const str = document.getElementById('str24').value;
-    
+
     // let elemIndex = -1;
     // arr.forEach((elem, index) => {
     //     // elem === str ? elemIndex=index : elemIndex=-1;
@@ -752,7 +752,7 @@ const searchElementInArray = () => {
     //         break
     //     }
     // });
-    
+
     // if(index == -1) {
     //     document.getElementById('ans40').innerHTML = "Element not Found in the Array";
     // } else {
