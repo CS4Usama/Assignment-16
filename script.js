@@ -747,7 +747,7 @@ const searchElementInArray = () => {
     //     // elem === str ? elemIndex=index : elemIndex=-1;
     //     console.log(index, elem, str);
     //     if(elem === str) {
-    //         console.log(index)
+    //         console.log(index);
     //         // elemIndex = index
     //         break
     //     }
